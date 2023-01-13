@@ -1,4 +1,5 @@
 import Head from "next/head";
+import PlanetPlusContainer from "./PlanetPlusContainer/PlanetPlusContainer";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
         <meta name="description" content="Planet Plus Coworking Space by ICD" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <h1 className={styles.main}>hello true</h1>
+      <PlanetPlusContainer></PlanetPlusContainer>
     </>
   );
 }

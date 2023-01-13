@@ -1,0 +1,61 @@
+.section {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+}
+
+.section .item {
+  grid-column: span 3;
+  text-align: center;
+}
+
+.section .item:nth-child(n + 3) {
+  grid-column: span 2;
+}
+
+.section .title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 78px;
+  letter-spacing: -0.02em;
+  color: #38885c;
+  margin-top: 50px;
+}
+
+.section .description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-align: left;
+  margin-top: 70px;
+  width: 500px;
+}
+
+.section .descriptionPlus {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 170px;
+  margin-top: 40px;
+}
+
+.planetPlusRectangle {
+  display: block;
+  margin-right: 10px;
+}
+
+.linkArrow {
+  margin: auto;
+  display: block;
+}
