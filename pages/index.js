@@ -1,5 +1,5 @@
 import Head from "next/head";
-import PlanetPlusContainer from "./PlanetPlusContainer/PlanetPlusContainer";
+import PlanetPlusContainer from "../components/PlanetPlusContainer/PlanetPlusContainer";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {

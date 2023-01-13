@@ -1,0 +1,34 @@
+@import "../../styles/Variables.module.scss";
+
+.featureInfoCard {
+  scroll-snap-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.featureInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  text-align: left;
+  padding: 40px 80px 40px 80px;
+
+  .featureInfoTitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+  }
+  .featureInfoDescription {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
