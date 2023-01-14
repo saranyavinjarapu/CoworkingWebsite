@@ -10,6 +10,15 @@
   background: #fff;
   border-radius: 8px;
   margin-top: 20px;
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.featureInfoImage {
+  min-width: 100%;
+  height: auto;
 }
 
 .featureInfo {

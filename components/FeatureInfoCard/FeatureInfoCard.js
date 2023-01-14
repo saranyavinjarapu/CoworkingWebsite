@@ -10,7 +10,11 @@ const FeatureInfoCard = (props) => {
   } = props;
   return (
     <li className={styles.featureInfoCard}>
-      <Image src={featureImageSource} alt="planet plus icon" />
+      <Image
+        className={styles.featureInfoImage}
+        src={featureImageSource}
+        alt="planet plus icon"
+      />
       <div
         className={styles.featureInfo}
         style={{ backgroundColor: featureBackgroundColor }}

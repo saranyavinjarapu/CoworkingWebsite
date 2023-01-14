@@ -70,6 +70,10 @@
   scroll-snap-type: x proximity;
   padding-bottom: calc(0.75 * $gutter);
   margin-bottom: calc(-0.25 * $gutter);
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .scrollableList:before,

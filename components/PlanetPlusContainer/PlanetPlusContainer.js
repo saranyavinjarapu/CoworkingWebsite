@@ -3,9 +3,6 @@ import FeatureInfoCard from "../FeatureInfoCard/FeatureInfoCard";
 import Image from "next/image";
 import planetPlusRectangle from "../../public/planetPlusRectangle.svg";
 import linkArrow from "../../public/linkArrow.svg";
-import spaceCafe from "../../images/spaceCafe.svg";
-import enrichment from "../../images/enrichment.svg";
-import library from "../../images/library.svg";
 import featuresData from "../../data/featuresData";
 
 const PlanetPlusContainer = () => {
