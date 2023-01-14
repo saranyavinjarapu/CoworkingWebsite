@@ -13,52 +13,6 @@
   }
 }
 
-.titleContainer {
-  padding-left: 50px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-top: 70px;
-  text-align: left;
-}
-
-.title {
-  font-weight: 200;
-  font-size: 78px;
-  line-height: 78px;
-  letter-spacing: -0.02em;
-  color: $titleColor;
-  flex: 1;
-}
-
-.description {
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 32px;
-  letter-spacing: 0.02em;
-  color: #000000;
-  flex: 1;
-}
-.descriptionPlus {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 170px;
-  margin-top: 40px;
-  .planetPlusRectangle {
-    display: block;
-    margin-right: 10px;
-  }
-
-  .linkArrow {
-    margin: auto;
-    display: block;
-  }
-}
-
 .scrollableList {
   display: grid;
   grid-gap: $gutter;

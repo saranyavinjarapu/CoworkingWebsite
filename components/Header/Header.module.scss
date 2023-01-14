@@ -1,0 +1,63 @@
+@import "../../styles/Variables.module.scss";
+
+.headerContainer {
+  padding-top: 70px;
+  text-align: left;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.title {
+  font-weight: 300;
+  font-size: 68px;
+  line-height: 78px;
+  letter-spacing: -0.02em;
+  color: $titleColor;
+  border: 2px solid red;
+  padding-left: 50px;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.descriptionPlus {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 170px;
+  margin-top: 40px;
+  .planetPlusRectangle {
+    display: block;
+    margin-right: 10px;
+  }
+
+  .linkArrow {
+    margin: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .headerContainer {
+    padding-top: 20px;
+  }
+  .title {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.06em;
+    padding-left: 10px;
+  }
+  .description {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
