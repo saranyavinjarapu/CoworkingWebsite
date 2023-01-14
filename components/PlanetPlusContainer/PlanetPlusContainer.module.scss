@@ -1,7 +1,6 @@
 @import "../../styles/Variables.module.scss";
 
 .gridContainer {
-  padding-left: 50px;
   display: grid;
   grid-gap: $gutter 0;
   grid-template-columns: $gutter 1fr $gutter;
@@ -15,6 +14,7 @@
 }
 
 .titleContainer {
+  padding-left: 50px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -62,6 +62,7 @@
 .scrollableList {
   display: grid;
   grid-gap: $gutter;
+  padding-left: 50px;
   grid-template-columns: 10px;
   grid-template-rows: minmax(150px, 1fr);
   grid-auto-flow: column;
@@ -70,9 +71,10 @@
   scroll-snap-type: x proximity;
   padding-bottom: calc(0.75 * $gutter);
   margin-bottom: calc(-0.25 * $gutter);
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     display: flex;
     flex-direction: column;
+    padding-left: 0;
   }
 }
 

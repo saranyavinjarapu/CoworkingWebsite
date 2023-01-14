@@ -3,7 +3,7 @@
 .featureInfoCard {
   scroll-snap-align: center;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   flex-direction: column;
   justify-content: center;
   align-items: center;
