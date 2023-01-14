@@ -10,7 +10,7 @@
   background: #fff;
   border-radius: 8px;
   margin-top: 20px;
-  @media (max-width: 500px) {
+  @media (max-width: $smallScreenBreakPoint) {
     display: flex;
     flex-direction: column;
   }
@@ -39,5 +39,9 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  @media (max-width: $smallScreenBreakPoint) {
+    padding-left: 40px;
   }
 }

@@ -1,14 +1,14 @@
 import styles from "./PlanetPlusContainer.module.scss";
 import FeatureInfoCard from "../FeatureInfoCard/FeatureInfoCard";
 import Header from "../Header/Header";
-import featuresData from "../../data/featuresData";
+import featureData from "../../data/featureData";
 
 const PlanetPlusContainer = () => {
   return (
     <div className={styles.gridContainer}>
       <Header></Header>
       <ul className={`${styles.scrollableList} ${styles.full}`}>
-        {featuresData.map((row, index) => (
+        {featureData.map((row) => (
           <FeatureInfoCard
             key={row.feature_name}
             featureImageSource={row.feature_image}

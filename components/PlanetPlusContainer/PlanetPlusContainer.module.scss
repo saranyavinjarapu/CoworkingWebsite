@@ -25,7 +25,7 @@
   scroll-snap-type: x proximity;
   padding-bottom: calc(0.75 * $gutter);
   margin-bottom: calc(-0.25 * $gutter);
-  @media (max-width: 600px) {
+  @media (max-width: $smallScreenBreakPoint) {
     display: flex;
     flex-direction: column;
     padding-left: 0;
