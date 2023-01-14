@@ -14,8 +14,8 @@ const PlanetPlusContainer = () => {
       <div className={styles.titleContainer}>
         <div className={styles.title}>Planet Plus</div>
         <div className={styles.description}>
-          Co-working, caregiver spaces and a cafe. <br></br> Be productive; make
-          friends; become a part of the <br></br>Healthy Planet community.
+          Co-working, caregiver spaces and a cafe. Be productive; make friends;
+          become a part of the Healthy Planet community.
           <div className={styles.descriptionPlus}>
             <Image
               src={planetPlusRectangle}
